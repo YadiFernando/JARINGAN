@@ -19,14 +19,14 @@ echo
 echo $blue "1.> Stabilkan Jaringan"
 echo $green "2.> Stabilkan Jaringan v2"
 echo $red "3.> Stabilkan Jaringan Saat Nonton Youtube"
-echo $yellow "4.> keluar"
-echo
+echo $yellow "4.> Stabilkan Jaringan Saat Browsing"
+echo $purple "5.> Keluar Aja"
 read -p "#Root@YadiFernando : " bro
 
 if [ $bro = 1 ] || [ $bro = 1 ]
 then
 clear
-figlet "Yadi" | lolcat
+figlet "Yadi"
 echo $blue
 ping 8.8.8.8
 fi
@@ -34,7 +34,7 @@ fi
 if [ $bro = 2 ] || [ $bro = 2 ]
 then
 clear
-figlet "By Yadi" | lolcat
+figlet "By Yadi"
 echo $green
 ping -s1000 1.1.1.1
 fi
@@ -42,7 +42,7 @@ fi
 if [ $bro = 3 ] || [ $bro = 3 ]
 then
 clear
-figlet "Youtube" | lolcat
+figlet "Youtube"
 echo $red
 ping -s1000 74.125.24.138
 fi
@@ -50,7 +50,15 @@ fi
 if [ $bro = 4 ] || [ $bro = 4 ]
 then
 clear
-figlet "Thanks" | lolcat
+figlet "Browsing"
+echo $yellow
+ping -s1000 74.125.68.103
+fi
+
+if [ $bro = 5 ] || [ $bro = 5 ]
+then
+clear
+figlet "Thanks"
 echo $green "SAMPAI JUMPA DI LAIN WAKTU"
 echo $white
 cd ~

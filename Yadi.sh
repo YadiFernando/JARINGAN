@@ -21,6 +21,7 @@ echo $green "2.> Stabilkan Jaringan v2"
 echo $red "3.> Stabilkan Jaringan Saat Nonton Youtube"
 echo $yellow "4.> Stabilkan Jaringan Saat Browsing"
 echo $purple "5.> Keluar Aja"
+echo
 read -p "#Root@YadiFernando : " bro
 
 if [ $bro = 1 ] || [ $bro = 1 ]

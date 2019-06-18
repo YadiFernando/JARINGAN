@@ -8,20 +8,45 @@ white='\033[37;1m'
 yellow='\033[33;1m'
 sleep 1
 echo "\033[32;1mCreated By Yadi Fernando"
+sleep 1
 echo
-echo "\033[33;1mYoutube : Official Yadi Fernando"
+echo "\033[34;1m"
+figlet "HALLO"
 echo
-echo "\033[35;1mIG : @yadi_fernando123"
+sleep 2
+echo $green
+figlet "W A"
+echo "085706249638"
+echo
+sleep 2
+echo $red
+figlet "Y T"
+echo "Official Yadi Fernando"
+echo
+sleep 2
+echo $blue
+figlet "F B"
+echo "Yadi Fernando"
+echo
+sleep 2
+echo $ungu
+figlet "I G"
+echo "@yadi_fernando123"
 sleep 1
 echo ""
 echo "\033[31;1mSilahkan Pilih Guys"
 echo
 echo $blue "1.> Stabilkan Jaringan"
+echo
 echo $green "2.> Stabilkan Jaringan v2"
+echo
 echo $red "3.> Stabilkan Jaringan Saat Nonton Youtube"
+echo
 echo $yellow "4.> Stabilkan Jaringan Saat Browsing"
+echo
 echo $purple "5.> Keluar Aja"
 echo
+echo "\033[32;1m"
 read -p "#Root@YadiFernando : " bro
 
 if [ $bro = 1 ] || [ $bro = 1 ]

@@ -13,6 +13,7 @@ echo
 echo "\033[34;1m"
 figlet "HALLO"
 echo
+echo $yellow "Kamu bisa hubungi saya di : "
 sleep 2
 echo $green
 figlet "W A"
@@ -29,7 +30,7 @@ figlet "F B"
 echo "Yadi Fernando"
 echo
 sleep 2
-echo $ungu
+echo $purple
 figlet "I G"
 echo "@yadi_fernando123"
 sleep 1

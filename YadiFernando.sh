@@ -52,9 +52,11 @@ echo $red "3.} Stabilkan Jaringan Saat Youtube-an"
 echo $white "<===================================>"
 echo $yellow "4.} Stabilkan Jaringan Saat Browsing"
 echo $blue "<===================================>"
-echo $red "5.} COMING SOON..."
+echo $white "5.} COMING SOON..."
 echo $green "<===================================>"
-echo white "6.} KELUAR AJA...!"
+echo $red"6.} KELUAR AJA...!"
+
+
 echo $purple "<===================================>"
 echo "\033[32;1m"
 read -p "#Root@OYF : " bro

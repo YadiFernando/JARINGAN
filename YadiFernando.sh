@@ -27,11 +27,11 @@ figlet "W A"
 echo "085706249638"
 echo
 sleep 2
-
-
-
-
-
+echo $red
+figlet "Youtube"
+echo "Official Yadi Fernando"
+echo $white "Jangan Lupa SUBSCRIBE YA.."
+sleep 2
 echo $blue
 figlet "F B"
 echo "Yadi Fernando"
@@ -117,9 +117,9 @@ exit
 fi
 
 if [ $bro = 6 ] || [ $bro = 6 ]
-
 then
 clear
+echo $yellow
 figlet "Thanks"
 echo $green "SAMPAI JUMPA DI LAIN WAKTU"
 sleep 2

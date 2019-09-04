@@ -54,7 +54,7 @@ echo $yellow "4.} Stabilkan Jaringan Saat Browsing"
 echo $blue "<===================================>"
 echo $white "5.} COMING SOON..."
 echo $green "<===================================>"
-echo $red"6.} KELUAR AJA...!"
+echo $red "6.} KELUAR AJA...!"
 
 
 echo $purple "<===================================>"

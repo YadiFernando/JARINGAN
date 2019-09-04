@@ -12,12 +12,13 @@ figlet "BONUS"
 sleep 1
 echo
 echo $green "Silahkan Pilih : "
-echo
-echo $yellow "1.) install cmatrix"
-echo
-echo $red "2.) install figlet"
-echo
-echo $white "3.) keluar!!!!!"
+echo $white "<===================================>"
+echo $yellow "1.} INSTALL CMATRIX"
+echo $cyan "<===================================>"
+echo $red "2.} INSTALL FIGLET"
+echo $green "<===================================>"
+echo $white "3.} KELUAR!!!"
+echo $red "<===================================>"
 sleep 1
 echo $yellow
 read -p "Silahkan Pilih : " bro
@@ -68,5 +69,5 @@ echo
 echo $white "TERIMAKASIH ATAS KUNJUNGAN ANDA 😎"
 sleep 1
 echo $white
-cd ~
+exit
 fi
